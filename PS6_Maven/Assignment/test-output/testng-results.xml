@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-16T15:09:00 IST" name="Test Suite" finished-at="2025-01-16T15:09:33 IST" duration-ms="32392">
+    <groups>
+    </groups>
+    <test started-at="2025-01-16T15:09:00 IST" name="Test 1" finished-at="2025-01-16T15:09:33 IST" duration-ms="32392">
+      <class name="sdet.Assignment.verifyLink">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sdet.Assignment.verifyLink@4229bb3f]" started-at="2025-01-16T15:09:13 IST" name="beforeMethod" finished-at="2025-01-16T15:09:14 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="link(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sdet.Assignment.verifyLink@4229bb3f]" started-at="2025-01-16T15:09:14 IST" name="link" data-provider="linkData" finished-at="2025-01-16T15:09:32 IST" duration-ms="17566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Why Autify]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pricing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Start Free Trial]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[auth-btn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sdet.Assignment.verifyLink@4229bb3f]" started-at="2025-01-16T15:09:32 IST" name="afterMethod" finished-at="2025-01-16T15:09:33 IST" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- sdet.Assignment.verifyLink -->
+      <class name="sdet.Assignment.linkTitle">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:sdet.Assignment.linkTitle@4d0f2471]" started-at="2025-01-16T15:09:00 IST" name="beforeClass" finished-at="2025-01-16T15:09:02 IST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="title(java.lang.String,java.lang.String)[pri:0, instance:sdet.Assignment.linkTitle@4d0f2471]" started-at="2025-01-16T15:09:02 IST" name="title" data-provider="linkData" finished-at="2025-01-16T15:09:13 IST" duration-ms="11219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Why Autify]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pricing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:sdet.Assignment.linkTitle@4d0f2471]" started-at="2025-01-16T15:09:13 IST" name="afterClass" finished-at="2025-01-16T15:09:13 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sdet.Assignment.linkTitle -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Test Suite -->
+</testng-results>
